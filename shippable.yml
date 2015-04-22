@@ -2,8 +2,9 @@ language: java
 
 jdk:
    - oraclejdk7
-   - openjdk6
-   - openjdk7
+   #- openjdk6
+   #- openjdk7
+build_image: shippable/minv2:latest
 services:
    - mongodb
 script:
