@@ -23,7 +23,7 @@ public class AppTest extends TestCase {
     String[] result = {""};
     try {
       App app = new App();
-      result = app.getData("Seattle", "WA");
+      result = app.getData("Seattle111", "WA");
       System.out.println("testGetDataFromBoth: " + result[0]);
     } catch (Exception e) {
       System.out.println("Error testing database");
