@@ -36,7 +36,7 @@ public class AppTest extends TestCase {
     String[] result = {""};
     try {
       App app = new App();
-      result = app.getDatass("Seattle", null);
+      result = app.getData("Seattle", null);
       System.out.println("testGetDataFromCity: " + result[0]);
     } catch (Exception e) {
       System.out.println("Error testing database");
